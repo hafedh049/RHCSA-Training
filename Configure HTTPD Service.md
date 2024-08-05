@@ -20,7 +20,7 @@ Here’s the complete guide with **SELinux** configurations and firewall rules i
      ```
    - **Change the Document Root:**
      Update `DocumentRoot` and `<Directory>` directives:
-     ```bash
+```css
      DocumentRoot "/customHTML"
 
      <Directory "/customHTML">
@@ -29,7 +29,7 @@ Here’s the complete guide with **SELinux** configurations and firewall rules i
      </Directory>
 
 	</Directory "/customHTML">
-	 ```
+```
 
 3. **Create the New Document Root Directory:**
    ```bash
